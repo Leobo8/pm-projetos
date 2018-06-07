@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    padding: 10px;
+    font-family: 'Open Sans'
+}
+
+img {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.card .noticia {
+    padding: 10px;
+    box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
+    border-radius: 0 0 2px 2px;
+}
+
+.noticia .pais_tempo {
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.pais_tempo .pais {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.pais_tempo .tempo {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #999999;
+    margin-left: 10px;
+}
+
+.card h2 {
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.card h2 a {
+    text-decoration: none;
+    color: #b5000d;
+}
+
+.card p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
