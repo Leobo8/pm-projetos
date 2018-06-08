@@ -3,21 +3,8 @@ ul {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.feito {
-    background-color: #27ae60;
-}
-
-.feito:hover {
-    background-color: rgba(39, 174, 95, 0.8);
-}
-
 li {
-    padding: 60px 0 60px 91px;
+    padding: 60px 40px 60px 100px;
     list-style-type: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -26,18 +13,29 @@ li {
     letter-spacing: 2px;
     background-color: #4a4a4a;
     margin-bottom: 3px;
-    padding-left: 28px;
+    background-image: url('done---1477--copy-3.png');
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-image: url('arrow-right---336-.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.feito {
+    background-color: #27ae60;
+    background-image: url('done---1477-.png');
+}
+
+.feito:hover {
+    background-color: rgba(39, 174, 95, 0.8);
 }
 
 li:hover {
     background-color: rgba(74, 73, 74, 0.8);
-}
-
-li .done {
-    padding-right: 23px;
-    vertical-align: middle;
-}
-
-li .seta {
-    vertical-align: middle;
 }
