@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    padding: 30px 8px 0 8px
+    padding: 30px 8px 0 8px;
 }
 
 .logo {
@@ -12,7 +12,7 @@ div img {
 }
 
 h2 {
-    padding-bottom: 67px;
+    padding-bottom: 47px;
     margin: 0;
     text-align: left;
     color: #4a4a4a;
@@ -20,4 +20,12 @@ h2 {
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+@media (min-width: 960px){
+    .cartoes{
+        width: 320px;
+        display: block;
+    }
+
 }
