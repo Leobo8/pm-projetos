@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+div {
+    width: 320px;
+    display: inline-block;
+}
+
+container {
+    text-align: center;
+    padding: 100px;
+}
+
+.logo {
+    display: block;
+    background-image: url('logo-playcode.png');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+div img {
+    width: 100%;
+}
+
+h2 {
+    padding-bottom: 47px;
+    margin: 0;
+    text-align: left;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
