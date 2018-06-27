@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    background-image: url('logo-playcode.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 span {
+    visibility: hidden;
+}
+
+.cartao {
+    margin: 10px;
+}
+
+.cartao img {
+    width: 100%;
+}
+
+.cartao h2 {
+    color: #4a4a4a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 500px){
+    .cartoes {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .cartao {
+        width: 300px;
+        float: left;
+    }
+}
