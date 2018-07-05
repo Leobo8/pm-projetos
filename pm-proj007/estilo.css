@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -8,19 +12,18 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid green;
 }
 
 #container h1 {
     background-image: url('img/logo.png');
     background-repeat: no-repeat;
     background-position: left;
-    margin: 0;
     display: inline-block;
     text-align: center;
+    padding: 20px 50px;
 }
 
-#container h1{
+#container h1 span {
     visibility: hidden;
 }
 
@@ -39,9 +42,12 @@ header {
 }
 
 #menu ul li a {
-    margin: 41px 90px 0 90px; 
+    margin: 41px 45px 0 85px; 
     display: inline-block;
     text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #topo {
@@ -50,4 +56,31 @@ header {
     background-image: url('img/fundo.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#container h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 225px 0 0 68px;    
+}
+
+#container h3 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 7px 0 0 34px;    
+}
+
+#container button {
+    width: 460px;
+    height: 88px;
+    box-shadow: 0 6px 0 rgba(163, 39, 81, 1);
+    border-radius: 3px;
+    background: #ff3d7f;
+    border: none;
+    font-size: 36px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 26px;
 }
