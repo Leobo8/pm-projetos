@@ -115,3 +115,33 @@ button {
     margin: 43px 0 0 497px;
     font-size: 30px;
 }
+
+#depoimento {
+    width: 100%;
+    background-color: #ebe8fb;
+    margin-top: 560px;
+    height: 439px;
+}
+
+#depoimento #container {
+    height: 439px;
+    background-image: url('img/mulher_headphone.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 45px;
+}
+
+#depoimento #container p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 170px;
+}
+
+#depoimento #container #assinatura {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
