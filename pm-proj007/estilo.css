@@ -1,202 +1,232 @@
 body {
     font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    background-color: #ff3d7f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 6px 0px 0px #a32751;
+    text-align: center;
 }
 
 header {
-    position: relative;
-    width: 100%;
+    margin-bottom: -100px;
 }
 
-#container {
-    width: 960px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-#container h1 {
-    background-image: url('img/logo.png');
+header h1 {
+    margin: 0;
+    background-image: url(img/logo.png);
     background-repeat: no-repeat;
-    background-position: left;
-    display: inline-block;
-    text-align: center;
-    padding: 20px 50px;
+    width: 177px;
+    height: 76px;
+    margin-top: 20px;
 }
 
-#container h1 span {
+header h1 span {
     visibility: hidden;
 }
 
-#menu {
-    display: inline-block;
+header nav ul {
+    padding-right: 0px;
+    margin: 0;
+    margin-top: 35px;
 }
 
-#menu ul {
+header nav li {
     list-style: none;
-    float: left;
-    margin: 0;
-}
-
-#menu ul li {
-    display: inline;
-}
-
-#menu ul li a {
-    margin: 41px 45px 0 85px; 
     display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 400;
+    margin-right: 100px;
 }
 
-#menu ul #convite {
-    border: solid 1px white;
-    background: none;
-    height: 40px;
-    width: 140px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-#topo {
-    width: 100%;
-    height: 828px;
-    background-image: url('img/fundo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#topo #container h2 {
-    color: #ffffff;
-    font-size: 50px;
-    font-weight: 400;
-    margin: 225px 0 0 68px;    
-}
-
-#topo #container h3 {
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 300;
-    margin: 7px 0 0 34px;    
-}
-
-button {
-    box-shadow: 0 6px 0 rgba(163, 39, 81, 1);
+header nav li:last-child {
+    border: 1px solid #fff;
     border-radius: 3px;
-    background: #ff3d7f;
-    color: #ffffff;
-    border: none;
-    font-weight: 300;
+    padding: 10px 40px;
 }
 
-#topo #container button {
-    width: 460px;
-    height: 88px;
-    font-size: 36px;
-    margin-top: 26px;
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-#conheca #container {
-    height: 560px;
-    background-image: url('img/garota_ouve_musica.png');
-    background-repeat: no-repeat;
-    background-position: left;
+section#topo {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 828px;
 }
 
-#conheca #container h3 {
-    font-size: 36px;
-    font-weight: 500;
-    padding: 130px 0 0 497px;
+section#topo .chamada {
+    margin-top: 220px;
+    color: #fff;
+    text-align: center;
+}
+
+section#topo .chamada h2 {
+    font-size: 50px;
     margin: 0;
+    margin-bottom: 10px;
 }
 
-#conheca #container p {
+section#topo .chamada p {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+section#conheca img {
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+section#conheca .texto_conheca {
+    padding: 90px 24px 15px 78px;
+}
+
+section#conheca .texto_conheca h2 {
+    font-size: 36px;
+}
+
+section#conheca .texto_conheca p {
     font-size: 24px;
-    font-weight: 300;
-    padding: 21px 0 0 497px;
-    margin: 0;
+    padding-bottom: 15px;
 }
 
-#conheca #container button {
-    width: 290px;
-    height: 73px;
-    margin: 43px 0 0 497px;
+section#conheca a {
+    width: 270px;
     font-size: 30px;
 }
 
-#depoimento {
-    width: 100%;
+
+section#depoimento {
     background-color: #ebe8fb;
-    margin-top: 560px;
-    height: 439px;
+    border-top: 4px solid #511099;
+    padding: 70px;
 }
 
-#depoimento #container {
-    height: 439px;
-    background-image: url('img/mulher_headphone.png');
+section#depoimento .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+section#depoimento img {
+    width: 151px;
+    height: 150px;
+}
+
+section#depoimento p {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+section#convite {
+    background-image: url(img/fundo-convite.png);
     background-repeat: no-repeat;
-    background-position: top;
-    margin-top: 45px;
+    background-size: cover;
+    height: 600px;
 }
 
-#depoimento #container p {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 300;
-    margin-top: 170px;
+section#convite .container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
 }
 
-#depoimento #container #assinatura {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-    margin: 0;
-}
-
-#convite {
-    width: 100%;
-    height: 439px;
-    background-image: url('img/fundo-convite.png');
-    background-repeat: no-repeat;
-}
-
-#convite #container {
-    text-align: center;
-    padding-top: 156px;
-}
-
-#convite #container .email {
-    width: 641px;
-    height: 120px;
-    color: #4a4a4a;
-    font-size: 24px;
-    font-weight: 400;
+section#convite form {
+    width: 70%;
+    height: 80px;
+    background-color: rgba(255,255,255,0.9);
     border-radius: 3px;
+    padding-top: 30px;
+}
+
+section#convite input {
+    width: 75%;
     border: none;
-    text-align: center;
-    background-image: url('img/botao-convite.png');
+    font-size: 24px;
+    background: transparent;
+    padding-left: 40px;
+}
+
+section#convite button span {
+    visibility: hidden;
+}
+
+section#convite button {
+    background-image: url(img/botao-convite.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-color: #fff;
-    opacity: 0.89;
+    background-color: rgba(255,255,255,0.1);
+    width: 90px;
+    height: 45px;
+    border: none;
 }
 
-#convite #container form button {
-    padding: 0;
-}
 
-#rodape #container {
-    width: 100%;
-    height: 91px;
-    text-align: center;
-    padding-top: 44px;
+footer {
+    margin-top: 3px;
     background-color: #2a0157;
 }
 
-#rodape #container span {
-    color: #fff;
+footer .container {
+    flex-direction: column;
+    align-items: center;
+    height: 91px;
+}
+
+footer .container span {
     font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
+    padding: 30px;
+    color: #fff;
+    letter-spacing: 0.9;
+}
+
+@media (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+    
+    header h1 {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    section#conheca .container {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    
+    section#conheca img {
+        width: 80%;
+        padding: 40px;
+    }
+    
+    section#conheca .texto_conheca {
+        padding: 0;
+        text-align: center;
+    }
+    
+    section#conheca .botao {
+        width: 100%;
+    }
+    
+    section#convite form {
+        flex-direction: row;
+    }
+    
 }
