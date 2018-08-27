@@ -1,6 +1,7 @@
 body {
     background-color: #242536;
     display: inline-flex;
+    font-family: sans-serif;
 }
 
 aside nav#logo {
@@ -47,7 +48,9 @@ aside nav ul li#semDestaque {
     margin-left: 10px;
 }
 
-body section {
+
+
+section {
     width: 1160px;
     height: 600px;
     background-color: #fff;
@@ -55,6 +58,30 @@ body section {
     background-color: #f5f5f5;
 }
 
-bocy section#menu_superior {
-    height: 100px;
+section nav#menu_superior {
+    height: 50px;
+    background-color: #fff;
+    padding: 1px;
+}
+
+section nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+section nav ul li:first-child {
+    margin-right: 30px;
+    padding-bottom: 15px;
+    color: #ffb946;
+    border-bottom: 3px solid;
+}
+
+
+section#formulario {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
 }
