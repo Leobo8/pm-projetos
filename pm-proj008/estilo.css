@@ -52,7 +52,7 @@ aside nav ul li#semDestaque {
 
 section {
     width: 1160px;
-    height: 600px;
+    height: 1000px;
     background-color: #fff;
     margin-top: 60px;
     background-color: #f5f5f5;
@@ -81,7 +81,49 @@ section nav ul li:first-child {
 
 
 section#formulario {
-    width: 300px;
-    height: 300px;
+    width: 1100px;
+    height: 1000px;
     background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+section#formulario h2 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+section#formulario .email {
+    margin: 0;
+}
+
+section#formulario input {
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+section#formulario div {
+    width: 450px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+section#formulario .senha {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+section#formulario .password {
+    -webkit-font-smoothing: antialiased;
+}
+
+section#formulario .checkbox {
+    
 }
